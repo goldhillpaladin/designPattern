@@ -1,4 +1,4 @@
-// This an thread-safety implementation of the singleton pattern.
+// This a thread-safety implementation of the singleton pattern.
 
 #ifdef _WIN32
 #include <Windows.h>
