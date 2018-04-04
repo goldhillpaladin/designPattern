@@ -1,3 +1,5 @@
+// This an thread-safety implementation of the singleton pattern.
+
 #ifdef _WIN32
 #include <Windows.h>
 void MySleep(unsigned long milliseconds) {
@@ -11,8 +13,8 @@ void MySleep(unsigned long milliseconds) {
 #endif
 
 #include <iostream>
-#include <thread>
 #include <mutex>
+#include <thread>
 #include <vector>
 
 class Singleton {
